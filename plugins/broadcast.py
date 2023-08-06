@@ -13,16 +13,16 @@ async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
     sts = await message.reply_text(
-        text='Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ Yᴏᴜʀ Mᴇssᴀɢᴇ Tᴏ Yᴏᴜʀ Bᴏᴛ Usᴇʀs 😗 Sᴜᴩᴩᴏʀᴛ ﹝ ᴛᴀᴍɪʟᴀɴ_ʙᴏᴛsᴢ ﹞...'
+        text='Bʀᴏᴀᴅᴄᴀsᴛɪɴɢ Yᴏᴜʀ Mᴇssᴀɢᴇ Tᴏ Yᴏᴜʀ Bᴏᴛ Usᴇʀs 🌹 Sᴜᴩᴩᴏʀᴛ ﹝ #QTVS_BOTz ﹞...'
     )
     start_time = time.time()
     total_users = await db.total_users_count()
-    done = 0
-    blocked = 0
-    deleted = 0
-    failed =0
+    done🤞 = 0
+    blocked😒 = 0
+    deleted😢 = 0
+    failed💔 =0
 
-    success = 0
+    success💐 = 0
     async for user in users:
         pti, sh = await broadcast_messages(int(user['id']), b_msg)
         if pti:
